@@ -1,0 +1,575 @@
+body,html{
+background: #fff;
+font-size: 20px;
+line-height: 1.86em;
+-webkit-font-smoothing:antialiased;
+font-weight: 400px;
+color:#686868;
+box-shadow: none;
+}
+.navbar
+{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: #d4d7d4;
+	width: 100%;
+	height: 100px;
+	z-index: 15886;
+	transition: border .4s ease-in-out;
+	font-family: "Fira Sans";
+	box-sizing: inherit;
+}
+.nav
+{
+	display: flex;
+	justify-content: right;
+	list-style: none;
+	margin-right: 15%;
+}
+.navbar-brand
+{
+	text-align:none;
+	flex: 1 1 auto;
+	margin:0px,0px,0px,10px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.card-header{
+	margin: 0px;
+	color: #000;
+	text-decoration: none;
+	text-transform: auto;
+    font-family: "Fira Sans";
+} 
+a:hover
+{
+	color: #000;
+} 
+body{
+	font-family: Poppins;
+}
+.carousel-item
+{
+height: 100vh;
+min-height: 300px;
+}
+.carousel-caption
+{
+	bottom: 220px;
+}
+.carousel-caption h5{
+	font-size: 60px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 25px,0px,0px;
+	font-weight: 900;
+}
+.carousel-caption p{
+	font-size: 18px;
+	margin-top: auto;
+	width: 100%;
+	line-height: 1.9;
+}  
+.carousel-caption a{
+	text-transform: uppercase;
+	background: darkorange;
+	padding: 10px 30px;
+	display: inline block;
+	color:#fff;
+	margin-top: 15px;
+	border-radius: 50px; 
+}
+.about{
+	background-color: #fff;
+  }
+.about .content h1{
+	color: #000;
+	display: block;
+	font-size: 1.5rem;
+	margin-block-start: 0.83em;
+	margin-block-end: 0.83em; 
+	margin-inline-start: 0px;
+	margin-inline-end: 0px; 
+}
+.img-place
+{
+	float: right;
+	box-sizing: unset;
+	-webkit-box-sizing: inherit;
+}
+.btn{
+	text-transform: uppercase;
+	background: darkorange;
+	padding: 10px 30px;
+	display: inline block;
+	color:#fff;
+	margin-top: 15px;
+	border-radius: 50px; 
+}
+/* .vntd-icon-list.icon-list-large li {
+    padding-left: 66px;
+    margin-bottom: 8px;
+}
+.vntd-icon-list.icon-list-no-border li {
+    border: 0;
+    padding: 15px 0;
+    padding-left: 52px;
+}
+.vntd-icon-list li {
+    list-style: none;
+    padding: 16px 0;
+    border-bottom: 1px solid #f0f0f0;
+    position: relative;
+    padding-left: 52px;
+} */
+.stat
+{
+	background-color:#f8f8f8;
+	padding: 50px,0px,0px;
+	color:#61a9ec;
+	background-attachment: fixed;
+}
+.stat i{
+	font-size: 35px;
+}
+.stat-items h2
+{
+	
+	font-size: 38px;
+	color:#469fe4;
+} 
+.stat p
+{
+	letter-spacing: 1px;
+}  
+.home
+{
+	background-color: #fff;
+}
+/* .home .home-items h6
+{
+	font-size: 18px;
+	margin-bottom: 18px;
+	font-family: "Fira Sans";
+	color: #303030;
+	line-height: 1.38em;
+	font-weight: 500px;
+	-webkit-font-smoothing:antialiased;
+	margin-bottom: 0.5rem;
+	box-sizing: inherit;
+	display: block;
+	font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.home .home-items p
+{
+	font-size: 14px;
+	font-family: "Fira Sans";
+	font-size: 18px;
+    color: #303030;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+	display: block;
+	padding-top: 30px;
+  	padding-right: 30px;
+  	padding-bottom: 20px;
+  	padding-left: 20px;
+}
+.home i
+{
+	font-size: 17px;
+} */
+.main_heading
+{
+	margin: 50px 0px;
+}
+.main_heading h1
+{
+	font-size: 45px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 45px;
+    color: #303030;
+	margin: 10px,40px,0px;
+	font-family: "Fira Sans";
+}
+.main_heading p
+{
+	font-size: 20px;
+	font-family: "Fira Sans";
+	text-align: center;
+	color: #777;
+}
+.home-icon-box {
+	margin-bottom:7px;
+}
+
+.home-icon-box .home-icon {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	line-height: 31px;
+	font-size: 18px;
+}
+.p1, .p2, .p9
+{
+	padding-left: 30px;
+} 
+.p3, .p4, .p8
+{
+	padding-left:30px;
+}
+.p5, .p6, .p7
+{
+	padding-left: 30px;
+}
+.home-info {
+	margin:7.5px,11px,15px,30px;
+	font-size: 17px;
+	font-family: "Fira Sans";
+	line-height: 1.38em;
+	display: block;
+	box-sizing: inherit;
+	color:#303030;
+	font-weight: 400;
+}
+.welcome{
+	background-color: #f8f8f8;
+	margin: 15px,0px;
+	width: 100%;
+	height: 25%;
+}
+	.c1
+  {
+	  /* margin: 50px,25px,50px,100px; */
+	  margin: auto;
+  } 
+.welcome .content h1{
+	display: block;
+	font-size: 32px;
+	color: #303030;
+	margin-block-start: 0.83em;
+	margin-block-end: 0.83em; 
+	margin-inline-start: 0px;
+	margin-inline-end: 0px; 
+	/* margin-bottom: 40px;
+	margin-top: 20px; */
+	margin:20px,10px,100px,50px;
+	/* margin: 0px 0px 25px; */
+	font-family: "Fira Sans";
+}
+.welcome .content p{
+	display: block;
+	font-size: 19px;
+	color: #606060;
+	font-family: "Fira Sans";
+}
+.img-position
+{
+	float: right;
+	box-sizing: unset;
+	-webkit-box-sizing: inherit;
+	padding-left: 150px;
+}
+/* .icon-list
+{
+	margin-bottom: 35px;
+	padding-top: 50px;
+	padding-bottom: 80px;
+	color:#606060;
+	background-attachment: fixed;
+	margin-bottom: 10px;
+	margin-top: 50px; 
+} */ 
+.demo{ background: #ffffff; }
+.testimonial{
+    margin: 0px 20px 40px;
+}
+.test
+{	
+	margin-top: 15px;
+	font-family: "Fira Sans";
+	color: #303030;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+}
+.test-1
+{
+	font-family: "Fira Sans";
+	font-size: 20px;
+	color: #888;
+	text-align: center;
+}
+.testimonial .testimonial-content{
+    padding: 35px 25px 35px 50px;
+    margin-bottom: 35px;
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    position: relative;
+}
+.testimonial .testimonial-content:after{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    position: absolute;
+    bottom: -10px;
+    left: 22px;
+    transform: rotate(45deg);
+}
+.testimonial-content .testimonial-icon{
+    width: 50px;
+    height: 45px;
+    background: #ff4242; 
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    line-height: 42px;
+    position: absolute;
+    top: 37px;
+    left: -19px;
+}
+.testimonial-content .testimonial-icon:before{
+    content: "";
+    border-bottom: 16px solid #e41212;
+    border-left: 18px solid transparent;
+    position: absolute;
+    top: -16px;
+    left: 1px;
+}
+.testimonial .description{
+    font-size: 15px;
+    font-style: italic;
+    color: #8a8a8a;
+    line-height: 23px;
+    margin: 0;
+}
+.testimonial .title{
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #686868;
+	font-family: "Fira Sans";
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 0 0 5px 0;
+}
+.testimonial .post{
+    display: block;
+    font-size: 14px;
+    color: #686868;
+}
+.owl-theme .owl-controls{
+    margin-top: 20px;
+}
+.owl-theme .owl-controls .owl-page span{
+    background: #ccc;
+    opacity: 1;
+    transition: all 0.4s ease 0s;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+    background: #686868;
+}
+
+footer {
+	background: #16222A;
+	background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+	background: linear-gradient(59deg, #3A6073, #16222A);
+	color: white;
+	margin-top:100px;
+  }
+  
+footer a {
+	color: #fff;
+	font-size: 14px;
+	transition-duration: 0.2s;
+  }
+  
+footer a:hover {
+	color: #FFF600;
+	text-decoration: none;
+  } 
+  
+.copy {
+	font-size: 12px;
+	padding: 10px;
+	border-top: 1px solid #FFFFFF;
+  }
+  
+  .footer-middle {
+	padding-top: 2em;
+	color: white;
+  }
+  .h1
+  {
+	font-size: 30px;
+	font-family: "Fira Sans";
+	margin-right: 50px;
+  }
+  .h2
+  {
+	font-family: "Fira Sans";
+	font-size: 17px;
+  }
+  /*SOCİAL İCONS*/
+  
+  /* footer social icons */
+  
+  ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left: 0 !important;
+	padding: 0;
+  }
+  
+  ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+  }
+  
+  
+  /* footer social icons */
+  
+  .social-network a.icoFacebook:hover {
+	background-color: #3B5998;
+  }
+  
+  .social-network a.icoLinkedin:hover {
+	background-color: #007bb7;
+  }
+  
+  .social-network a.icoFacebook:hover i,
+  .social-network a.icoLinkedin:hover i {
+	color: #fff;
+  }
+  
+  .social-network a.socialIcon:hover,
+  .socialHoverClass {
+	color: #44BCDD;
+  }
+  
+  .social-circle li a {
+	display: inline-block;
+	position: relative;
+	margin: 0 auto 0 auto;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	font-size: 15px;
+  }
+  
+  .social-circle li i {
+	margin: 0;
+	line-height: 30px;
+	text-align: center;
+  }
+  
+  .social-circle li a:hover i,
+  .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+  }
+  
+  .social-circle i {
+	color: #595959;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+  }
+  
+  .social-network a {
+	background-color: #F9F9F9;
+  }
+/* .feedback
+{
+	background-color: #DDDDDD;
+}
+.feedback .heading h1
+{
+	color:#000;
+	font-family: "Fira Sans";
+	font-size: 5px;
+	text-align: center;
+}
+.feedback .box-container
+{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-bottom: 5rem;
+}
+.feedback .box-container .box
+{
+	background-color: #fff;
+	width: 30rem;
+	margin: 5rem 1rem;
+	padding: 1.5rem;
+	position: relative;
+}
+.feedback .box-container .box p
+{
+	font-size: 20px;
+	color: var(--black);
+	font-family: "Fira Sans";
+
+}
+.feedback .box-container .box h3
+{
+	font-size:17px;
+	font-family: "Fira Sans";
+	color: var(--black);
+}
+.feedback .box-container .box span
+{
+	font-size:15px;
+	font-family: "Fira Sans";
+	color: var(--black);
+	display: block;
+} */
+/* .feedback .heading p
+{
+	color:#000;
+	font-family: "Fira Sans";
+	font-size: 5px;
+	text-align: center;
+} */
+/* .section-wrapper
+{
+	background-color:#f8f8f8;
+	padding-top: 50px;
+	padding-bottom: 80px;
+	color:#303030;
+	background-attachment: fixed;
+	font-family: "Fira Sans";
+}
+.img-position
+{
+	width:800px;
+	height: 700px;
+	position: left;
+} */
