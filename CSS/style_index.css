@@ -9,7 +9,7 @@ box-shadow: none;
 }
 .navbar
 {
-	position: absolute;
+	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -38,7 +38,7 @@ box-shadow: none;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 20px !important;
 }
 .card-header{
 	margin: 0px;
@@ -221,9 +221,16 @@ min-height: 300px;
 	line-height: 31px;
 	font-size: 18px;
 }
-.p1, .p2, .p9
+.y{
+	/* margin-right: 700px !important; */
+}
+.p1
 {
 	padding-left: 30px;
+}
+.p2
+{
+	padding-left: 45px;
 } 
 .p3, .p4, .p8
 {
@@ -233,6 +240,18 @@ min-height: 300px;
 {
 	padding-left: 30px;
 }
+.p9
+{
+	padding-left: 18px;
+}
+.p10
+{
+	padding-left: 18px;
+}
+/* .p11
+{
+	padding-left: 5px;
+}  */
 .home-info {
 	margin:7.5px,11px,15px,30px;
 	font-size: 17px;
@@ -390,6 +409,8 @@ footer {
 	background: linear-gradient(59deg, #3A6073, #16222A);
 	color: white;
 	margin-top:100px;
+	position: relative;
+	font-family: "Fira Sans";
   }
   
 footer a {
@@ -505,6 +526,85 @@ footer a:hover {
   .social-network a {
 	background-color: #F9F9F9;
   }
+  .navbar
+  {
+	  background: #469fe4;
+  }
+ .navbar-brand
+ {
+	 color: #fff;
+	 font-family:"Fira Sans";
+	 font-size: 20px !important;
+	 text-transform: capitalize;
+	 margin-left: 70px;
+ }
+ .nav-link
+ {
+	position: relative;
+	top: 0px;
+	bottom: 0px;
+	left: 100px;
+	color: #fff;
+	font-family: "Fira Sans";
+	font-size: 20px;
+	width: 30%;
+ }
+ .a1{
+	background-color: #fff;
+  }
+.content h1{
+	color: #000;
+	font-family: "Fira Sans";
+	font-size: 32px;
+	margin: 30px 0px 25px;
+	/* font-size: 1.5rem; */
+	/* margin-block-start: 0.83em;
+	margin-block-end: 0.83em; 
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;  */
+}
+.text
+{
+	color:#606060;
+	margin-right: 40px;
+	font-family: "Fira Sans";
+	font-size: 18px;
+}
+.text1
+{
+	color:#606060;
+	margin-right: 40px;
+	font-family: "Fira Sans";
+	font-size: 16px;
+}
+/* .img-p1
+{ */
+	/* float: left; */
+	/* box-sizing: unset;
+	-webkit-box-sizing: inherit; }*/
+  /* .breadcrumb
+  {
+	  background-color: #469fe4;
+  }
+  .home1
+  {
+	color: #fff;
+	font-family: "Fira Sans";
+	font-size: 25px;
+	text-align: end;
+  }
+.about{
+    font-size: 32px;
+	font-family: "Fira Sans";
+	color: #292020;
+} */
+/* #app-navbar {
+    background: linear-gradient(120deg, #0cf9e5, #5a84eb);
+}
+
+body {
+    background: #eee;
+} */
 /* .feedback
 {
 	background-color: #DDDDDD;
