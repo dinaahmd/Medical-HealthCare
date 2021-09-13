@@ -577,6 +577,58 @@ footer a:hover {
 	font-family: "Fira Sans";
 	font-size: 16px;
 }
+.main_heading1
+{
+	margin: 50px 0px;
+	text-align: center;
+	color: #18a0e4;
+}
+.main_heading1 h1
+{
+	font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 45px;
+    color: #303030;
+	margin: 10px,40px,0px;
+	font-family: "Fira Sans";
+}
+.main_heading1 p
+{
+	font-size: 20px;
+	font-family: "Fira Sans";
+	text-align: center;
+	color: #777;
+}
+.home-icon-box1 {
+	margin-bottom:7px;
+}
+
+.home-icon-box1 .home-icon1 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	line-height: 31px;
+	font-size: 18px;
+}
+.p1, .p3, .p5, .p6, .p7, .p8
+{
+	padding-left: 30px;
+}
+.p9
+{
+	padding-left: 18px;
+}
+.home-info1 {
+	margin:7.5px,11px,15px,30px;
+	font-size: 17px;
+	font-family: "Fira Sans";
+	line-height: 1.38em;
+	display: block;
+	box-sizing: inherit;
+	color:#303030;
+	font-weight: 400;
+}
 /* .img-p1
 { */
 	/* float: left; */
